@@ -1,0 +1,124 @@
+ 
+ body{
+ height: 100vh;
+  width: 98%;
+
+  background-image: linear-gradient(rgba(17, 16, 16, 0.7), rgba(0, 0, 0, 0.7)),
+    url(keyquiz.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  text-overflow: none;
+  text-decoration-line: none;
+ }
+
+ .form-container .card {
+    /* top: 40%;
+    height: 45vh;
+    width: 40%; 
+    margin-left: 40%;
+    margin-top: 8rem;*/
+    font-weight: bold; 
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.5s ease;
+    cursor: pointer;
+ }
+ .form-container .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card-header {
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+  }
+  form .mb-5 {
+    background-color: transparent;
+  }
+  .mb-5 {
+    background-color: transparent;
+    border-bottom: 2px solid #ff4500#ff4500;
+  
+    width: 18rem;
+  }
+  .form-label {
+    /* border: 2px solid green; */
+    background-color: transparent;
+  }
+  .form-control {
+    border: 2px solid green;
+    background-color: transparent;
+    color: white;
+  }
+  input {
+    background-color: transparent;
+    color: white;
+  }
+  .btn {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 18rem;
+    font-weight: bolder;
+    font-size: larger;
+    border-bottom: 2px solid #ff4500;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    border-radius: 7px;
+    transform: scale(1.1);
+  }
+  .card-footer a {
+    color: #ff4500;
+    text-decoration-line: none;
+    text-decoration: none;
+  }
+  .card-header {
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+  }  
+
+main h1{
+    color: white;
+    /* font-size: 3em; */
+    font-weight: bolder;
+}
+
+
+
+  @media (max-width: 991px) {
+    body{
+        height: 150vh;
+      /* width: 100%;
+     */
+      }
+    main{
+        margin-top: 2rem;
+        margin-left: -2rem;
+        margin-right: 1rem;
+        /* width: -10rem; */
+    }
+    form .mb-5 {
+        height: auto;
+        width: 10rem;
+        margin-left: 4rem;
+    }
+    
+    .btn{
+        height: auto;
+        width: 10rem;
+        margin-left: 4rem
+        
+    }
+  }
